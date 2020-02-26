@@ -18,7 +18,10 @@ func Start() {
         os.Exit(1)
     }
 
-    if *o.CommandQuickScanIP {
-        scanner.ScanIP(*o.IPAddress, scanner.MakePortRangeArray(1, 1024))
+    // TODO: deep scan
+    if *o.CommandNormalScanIP {
+        scanner.ScanIP(*o.IPAddress, scanner.MakePortRangeArray(1, 1024), *o.Timeout)
+    } else if *o.CommandQuickScanIP {
+        scanner.ScanIP(*o.IPAddress, scanner.CommonPorts, *o.Timeout)
     }
 }
