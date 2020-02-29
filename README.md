@@ -7,7 +7,14 @@ Basic port scanning tool for network auditing and analysis. Written in Go.
 Quick scan of common ports on a single IPv4 target:
 
 ```
-./quick-port-scanner -a -ip 192.168.1.1 -timeout 250
+./qps -a -ip 192.168.1.1 -timeout 250
+Scanning ports...
+OPEN PORT: 192.168.1.1:53 DNS
+OPEN PORT: 192.168.1.1:8200 DLNA
+OPEN PORT: 192.168.1.1:80 HTTP
+OPEN PORT: 192.168.1.1:21 FTP
+OPEN PORT: 192.168.1.1:5000 UPnP,AirPrint
+OPEN PORT: 192.168.1.1:631 IPP,CUPS
 ```
 
 ## Reference
