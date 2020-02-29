@@ -22,6 +22,11 @@ func Start() {
     if *o.CommandNormalScanIP {
         scanner.ScanIP(*o.IPAddress, scanner.MakePortRangeArray(1, 1024), *o.Timeout)
     } else if *o.CommandQuickScanIP {
-        scanner.ScanIP(*o.IPAddress, scanner.CommonPorts, *o.Timeout)
+
+        commonPorts := make([]int, 0)
+        for key, _ := range scanner.Ports {
+            commonPorts = append(commonPorts, key)
+        }
+        scanner.ScanIP(*o.IPAddress, &commonPorts, *o.Timeout)
     }
 }

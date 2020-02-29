@@ -4,7 +4,11 @@ Basic port scanning tool for network auditing and analysis. Written in Go.
 
 ## Getting Started
 
-TODO
+Quick scan of common ports on a single IPv4 target:
+
+```
+./quick-port-scanner -a -ip 192.168.1.1 -timeout 250
+```
 
 ## Reference
 
