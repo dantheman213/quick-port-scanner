@@ -162,7 +162,7 @@ var Ports = map[int]string{
     8091:  "HTTP",
     8092:  "HTTP",
     8093:  "HTTP",
-    8200:  "DLNA",
+    8200:  "DLNA,GoToMyPC,HTTP",
     8222:  "VMWare VI (HTTP)",
     8300:  "Consul",
     8301:  "Consul",
