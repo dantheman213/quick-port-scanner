@@ -200,4 +200,5 @@ var Ports = map[int]string{
     26000: "quake,game",
     27017: "MongoDB",
     33434: "traceroute",
+    60000: "Spotify",
 }
