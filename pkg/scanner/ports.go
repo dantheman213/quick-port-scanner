@@ -99,6 +99,7 @@ var Ports = map[int]string{
     990:   "FTPS",
     1025:  "NFS",
     1027:  "ICQ,NFS",
+    1234:  "HTTP",
     1433:  "MS SQL Server",
     1434:  "MS SQL Server",
     1521:  "Oracle DB",
