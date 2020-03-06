@@ -99,6 +99,7 @@ var Ports = map[int]string{
     995:   "POP3 (TLS)",
     1025:  "NFS",
     1027:  "ICQ,NFS",
+    1234:  "HTTP",
     1433:  "MS SQL Server",
     1434:  "MS SQL Server",
     1521:  "Oracle-RDS",
@@ -167,7 +168,7 @@ var Ports = map[int]string{
     8091:  "HTTP",
     8092:  "HTTP",
     8093:  "HTTP",
-    8200:  "DLNA",
+    8200:  "DLNA,GoToMyPC,HTTP",
     8222:  "VMWare VI (HTTP)",
     8300:  "Consul",
     8301:  "Consul",
@@ -204,4 +205,5 @@ var Ports = map[int]string{
     26000: "quake,game",
     27017: "MongoDB",
     33434: "traceroute",
+    60000: "Spotify",
 }
