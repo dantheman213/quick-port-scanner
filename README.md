@@ -19,6 +19,8 @@ OPEN PORT: 192.168.1.1:631 IPP,CUPS
 
 ## Reference
 
+* https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
+
 * https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
 
 * https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/
